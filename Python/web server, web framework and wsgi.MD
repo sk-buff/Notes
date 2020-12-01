@@ -14,7 +14,7 @@ def application(environ, start_response):
 
 and the HTTP request processing flow is like the following:
 
-![figure](F:\Notes\Python\web server, web framework and wsgi_1.png)
+![figure](web server, web framework and wsgi_1.png)
 
 Let's look into details of each step:
 
