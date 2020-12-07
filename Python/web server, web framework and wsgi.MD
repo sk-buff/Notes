@@ -18,6 +18,8 @@ and the HTTP request processing flow is like the following:
 
 Let's look into details of each step:
 
-1. The client sends the HTTP requests.
-2. The WSGI parses the HTTP request and use the parsing result to build the `environ` object. `environ` is a dictionary which contains variables defined in the CGI standard. For more details about this object, you can refer [PEP 3333](https://www.python.org/dev/peps/pep-3333/#environ-variables). 
-3. The WSGI call the WSGI application with two parameters, 
+1\. The client sends the HTTP requests.
+
+2\. The WSGI parses the HTTP request and use the parsing result to build the `environ` object. `environ` is a dictionary which contains variables defined in the CGI standard. For more details about this object, you can refer [PEP 3333](https://www.python.org/dev/peps/pep-3333/#environ-variables). 
+
+3\. The WSGI call the WSGI application with two parameters, 

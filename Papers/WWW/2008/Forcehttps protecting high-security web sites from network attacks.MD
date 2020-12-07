@@ -10,6 +10,6 @@ This paper is the prototype of HSTS. It tries to use ForceHTTPS to modify a brow
 
 ### Shortcomings 
 
-**·** This paper uses cookies to send FroceHTTPS info to browsers instead of an HTTP header. This leads to a problem that a subdomain may set an FroceHTTPS cookie to influence it's parent domain (e.g. break the accessibility of the parent domain). 
+1\. This paper uses cookies to send FroceHTTPS info to browsers instead of an HTTP header. This leads to a problem that a subdomain may set an FroceHTTPS cookie to influence it's parent domain (e.g. break the accessibility of the parent domain). 
 
-**·** This paper also discusses some inherent problems of storing states in user's browser, e.g., how to organize the local storage and the privacy problem. But as I said, there problems are inherent, I don't think there are good ways to solve them. 
+2\. This paper also discusses some inherent problems of storing states in user's browser, e.g., how to organize the local storage and the privacy problem. But as I said, there problems are inherent, I don't think there are good ways to solve them. 
